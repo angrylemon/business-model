@@ -5,8 +5,18 @@ public class Main
 
 	public static void main(String[] args)
 	{
-		// TODO Auto-generated method stub
-
+		Good lemon = new Good("Lemon");
+		Good apple = new Good("Apple");
+		
+		
+ 		Business bus1 = new Business(20000);
+ 		
+ 		
+		bus1.addGood(lemon, 30);
+		bus1.addGood(apple, 20);
+		bus1.printGoods();
+		
+		
 	}
 
 }
